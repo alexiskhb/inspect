@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dropdown"
+        android:background="#f1f1f1"
+        android:clickable="true"
+        android:entries="@array/areas"
+        android:minHeight="50dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_marginTop="200dp"
+        android:clickable="true"
+        android:layout_weight="0.41"
+        android:singleLine="false"
+        android:typeface="serif"
+        android:inputType="textMultiLine"
+        android:enabled="true"
+        android:elegantTextHeight="true"
+        android:hyphenationFrequency="none"
+        android:editable="true"
+        android:elevation="15dp"
+        android:ellipsize="start"
+        android:drawableTintMode="multiply"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:password="false"
+        android:phoneNumber="false"
+        android:autoText="true" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Назад"
+            android:id="@+id/button5"
+            android:layout_marginLeft="0dp"
+            android:onClick="exitActivity"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Отправить"
+            android:id="@+id/button4" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
