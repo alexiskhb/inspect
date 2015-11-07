@@ -14,6 +14,13 @@ public class SituationIsBad extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_situation_bad);
     }
+
+
+    public void exitActivity(View v){
+        this.finish();
+    }
+
+
 }
 
 
