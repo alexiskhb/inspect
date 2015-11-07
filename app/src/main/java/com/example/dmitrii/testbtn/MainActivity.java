@@ -19,10 +19,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ClickFirstButton(View view){
-        this.ClickBtn(view);
+        Intent intent_what_situation = new Intent(MainActivity.this, WhatSituation.class);
+        startActivity(intent_what_situation);
     }
 
     public void ClickSecondButton(View view){
-        this.ClickBtn(view);
+        Intent intent_situation_bad = new Intent(MainActivity.this, SituationIsBad.class);
+        startActivity(intent_situation_bad);
     }
 }
