@@ -22,8 +22,8 @@
         android:onClick="ClickBtn" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
         android:text="Как обстановка в..."
         android:id="@+id/button2"
         android:height="30dp"
@@ -32,11 +32,13 @@
         android:layout_centerHorizontal="true"
         android:typeface="serif"
         android:textStyle="bold|italic"
-        android:onClick="ClickFirstButton"/>
+        android:onClick="ClickFirstButton"
+        android:gravity="center"
+        android:textSize="18dp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
         android:text="Беда случилась в..."
         android:id="@+id/button3"
         android:layout_centerVertical="true"
@@ -46,6 +48,8 @@
         android:textStyle="bold|italic"
         android:layout_alignRight="@+id/button2"
         android:layout_alignEnd="@+id/button2"
-        android:onClick="ClickSecondButton"/>
+        android:onClick="ClickSecondButton"
+        android:gravity="center"
+        android:textSize="18dp" />
 
 </RelativeLayout>
