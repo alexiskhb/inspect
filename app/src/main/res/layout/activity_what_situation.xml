@@ -3,4 +3,25 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:layout_gravity="center_horizontal"
+        android:background="#f1f1f1"
+        android:clickable="true"
+        android:entries="@array/areas"
+        android:minHeight="50dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Найти"
+        android:id="@+id/button6"
+        android:layout_gravity="center_horizontal"
+        android:width="120dp"
+        android:height="30dp"
+        android:onClick="find_Situation"/>
+
 </LinearLayout>

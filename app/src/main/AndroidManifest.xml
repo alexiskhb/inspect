@@ -31,6 +31,9 @@
         <activity android:name=".SituationIsBad"
             android:label="Беда случилась в...">
         </activity>
+        <activity android:name=".AreaSituation"
+            android:label="Обстановка в...">
+        </activity>
     </application>
 
 </manifest>
